@@ -14,6 +14,12 @@ Build the documentation
 
    make latexpdf
 
+   # Latex dependencies
+
+   If latexpdf does not work you are probably missing latexmk and some macros. You can probably install less, but this is what was tested to work:
+
+   sudo apt-get install texlive texlive-latex-extra texlive-lang-cjk latexmk
+
 Contribute
 ----------
 
