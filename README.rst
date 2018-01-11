@@ -14,6 +14,24 @@ Build the documentation
 
    make html
 
+   # Latex dependencies
+
+   If latexpdf does not work you are probably missing latexmk and some macros. You can probably install less, but this is what was tested to work:
+
+   sudo apt-get install python-sphinx
+   sudo apt-get install texlive texlive-latex-extra texlive-lang-cjk latexmk
+
+   # Serving
+   sudo apt install nodejs
+   sudo apt install npm
+   npm install http-server -g
+
+   cd docs/_build/html
+   http-server -p <port>
+   
+   # Remote write
+   https://github.com/randy3k/RemoteSubl
+
 Contribute
 ----------
 
