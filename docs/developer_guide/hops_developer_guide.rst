@@ -9,3 +9,4 @@ Developer Guide
    guide/extend.rst
    guide/erasurecoding.rst
    guide/cert_materializer.rst
+   guide/dela.rst
